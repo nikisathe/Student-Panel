@@ -1,0 +1,57 @@
+
+h1 {
+    text-align: center;
+  }
+  .video-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .video-list li {
+    margin-bottom: 10px;
+  }
+  
+  .video-list li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .video-list li a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  
+  .link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 20px; 
+    background-color: rgb(202, 205, 208);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin:  0px 100px;
+  }
+  
+  .link-button:hover {
+    background-color: white;
+    color:black ;
+  }
+  @media  (max-width: 600px) {
+    .link-button {
+      display: block;
+      margin: 10px auto; 
+      width: 80%; 
+      padding: 15px; 
+      border-radius: 10px; 
+      font-size: 14px; 
+    }
+  }

@@ -1,0 +1,82 @@
+.contener2{
+    align-items: center;
+    width: 383px;
+    height: 281px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding:0px 0px 0px 10px;
+   }
+   .buten{
+     border-radius: 15px 15px 0 0;
+     background: #E5EFFF;
+     width: 374px;
+     height: 95.11px;
+     overflow: hidden;
+     opacity: 1;
+   }
+   .english{
+     padding:10px 0px 0px 20px;
+     color: rgba(0,0,0,1);
+     fontfamily: Poppins;
+     fontweight: SemiBold;
+     font-size: 12px;
+     opacity: 1;
+   }
+   .buttons2{
+     padding: 20px 20px 20px 20px;
+   }
+   .buttons2  span{
+     width: 102px;
+     color: #046B3A;
+     padding: 8px;
+     margin: 5px;
+     fontfamily: Poppins;
+     fontweight: Medium;
+     font-size: 11px;
+     border-radius: 20px;
+     border:2px solid #046B3A;
+     padding: 6px 30px;
+     background: #fff;
+   }
+   .buttons2 span:hover {
+     border:2px solid #1478EE;
+     background: #E5EFFF;
+     color: black;
+   }
+   .Data{
+   display: flex;
+   padding: 7px 20px 20px 20px ;
+   }
+   .Data ul li{
+   list-style: none;
+   padding: 2px 5px ;
+   }
+   .assign{
+   padding:10px 20px 0px ;
+   color: rgba(0,0,0,1);
+   fontfamily: Poppins;
+   fontweight: SemiBold;
+   font-size: 10px;
+   opacity: 1;
+   }
+   .bord, .Data{
+   color: rgba(0,0,0,1);
+   fontfamily: Poppins;
+   fontweight:Medium;
+   font-size: 11px;
+   }
+   .description{
+   padding:0px 20px 0px;
+   color: rgba(0,0,0,1);
+   fontfamily: poppins;
+   fontweight: SemiBold;
+   font-size: 10px;
+   opacity: 1;
+   }
+   .contener4 span{
+   padding-left: 20px;
+   color: rgba(0,0,0,1);
+   fontFamily:poppins;
+   fontweight:Medium;
+   font-size: 11px;
+   }

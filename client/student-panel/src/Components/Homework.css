@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-size: 14px;
+    align-items: center;
+    width: 430px;
+  }
+  .root {
+    position: relative;
+    width: 430px;
+    height: 932px;
+    align-items: flex-start;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  .contener{
+    width: 430px;
+    height: 932px;
+    overflow: hidden;
+  }
+  .textimg {
+    display: flex;
+    padding-left:20px;
+    position: relative;
+    margin:0px 20px 0px 0px;
+  }
+  .text {
+    width: 178px;
+    color: rgba(0,0,0,1);
+    fontfamily: Poppins;
+    fontweight: SemiBold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+    padding:40px 0px 0px 0px ;
+  }
+  .img {
+    width: 164px;
+    height: 127px;
+    background: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+  }
+  .but1{
+    padding: 42px 0px 42px 5px;
+  }
+  .buttons1{
+    background-color: #E5EFFF;
+    align-items: center;
+    width: 383px;
+    height: 42px;
+    opacity: 1;
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    border-radius: 20px;
+    justify-content: space-evenly;
+  }
+  .buttons1 div{
+    width: 33%;
+    border-radius: 20px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+  }
+  .buttons1 div:hover {
+    border:2px solid #EA1212;
+    background: #EA1212;
+    color: #fff;
+  
+  .hoverButton.active.pending{
+    background-color: #EA1212;
+  }
+  .hoverButton.active.submitted{
+    background-color: #046B3A;
+  }
+  .hoverButton.active.evaluated{
+    background-color: #1A6EFC;
+  }
+  }
+  
